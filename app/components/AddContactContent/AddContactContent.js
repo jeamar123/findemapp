@@ -56,7 +56,6 @@ class AddContactContent extends Component {
       if( responseJson.status == true ){
         this.setState({ userArr : responseJson.users })
       }
-      console.log(responseJson);
     }catch (error) {
       console.error(error);
     }

@@ -17,14 +17,14 @@ export default EStyleSheet.create({
     position: 'relative',
   },
   messageScrollContainer: {
-    flex: 1,
+    height: 'auto',
     paddingLeft: 10,
     paddingRight: 10,
     paddingTop: 10,
     paddingBottom: 10,
   },
   userBoxContainer: {
-    marginBottom: 15,
+    marginBottom: 10,
     width: '70%',
     height: 'auto',
     alignSelf: 'flex-end',
@@ -41,7 +41,7 @@ export default EStyleSheet.create({
     color: '#FFF'
   },
   contactBoxContainer: {
-    marginBottom: 15,
+    marginBottom: 10,
     width: '80%',
     flexDirection: 'row',
     height: 'auto',
@@ -56,11 +56,15 @@ export default EStyleSheet.create({
     justifyContent: 'flex-end',
     alignSelf: 'flex-end',
   },
+  noImage: {
+    width: 35,
+    marginRight: 10,
+  },
   contactMessage: {
     backgroundColor: '#d6d6d6',
     padding: 10,
     borderRadius: 8,
-    flex: 1,
+    width: 'auto',
     justifyContent: 'center',
   },
   contactText: {

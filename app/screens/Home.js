@@ -12,7 +12,6 @@ import { SideMenuContent } from '../components/SideMenuContent';
 import { AddContactContent } from '../components/AddContactContent';
 import { ChatContent } from '../components/ChatContent';
 
-
 class Home extends Component {
   constructor(props){
     super(props);
